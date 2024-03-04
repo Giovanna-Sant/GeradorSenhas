@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&display=swap');
+
+* {
+    margin: auto;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    height: 100%;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+
+}
+
+main {
+    background-color: var(--cor-0);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 3px 0px #cacaca;
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+}
+
+.botao {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: var(--cor-1);
+    padding: 5px 8px;
+    font-size: 16px;
+    border: 2px solid #cacaca
+}
+
+span {
+    display: inline-flex; 
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.range {
+    margin: 5px 10px px;
+    width: 150px;
+}
+
+p {
+    margin-bottom: 13px;
+    max-width: 400px;
+}
+
+textarea {
+    border: 2px solid #cacaca;
+    cursor: inherit;
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+    max-height: fit-content;
+}
+
+:root {
+    --cor-0: #ffffff;
+    --cor-1: #f0f0d8;
+    --cor-2: #98c7b0;
+    --cor-3: #c94b0c;
+    --cor-4: #5a372c;
+    --cor-5: #290a01;
+}
+
+.cor-0 {
+    color: var(--cor-0)
+}
+
+.cor-1 {
+    color: var(--cor-1)
+}
+
+.cor-2 {
+    color: var(--cor-2)
+}
+
+.cor-3 {
+    color: var(--cor-3)
+}
+
+.cor-4 {
+    color: var(--cor-4)
+}
+
+.cor-5 {
+    color: var(--cor-5)
+}

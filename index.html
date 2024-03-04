@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    <main>
+        <img src="IMG/cadeado.svg" alt="Vetor de cadeado fechado laranja" width="75px">
+        <h1>Gerador de Senha</h1>
+        <p>Selecione as características de sua nova senha! Se nenhum critério for selecionado, serão feitas senhas apenas com letras minúsculas.</p>
+        <h2>Quantidade de senhas</h2>
+        <span>
+            <div id="outQuant">2</div>
+            <input type="range" min="1" max="10" value="2" id="rangeQuantidade" class="range">
+        </span>
+
+        <h2>Tamanho da senha</h2>
+        <span>
+            <div id="outTam">8</div>
+            <input type="range" min="1" max="20" value="8" id="rangeTamanho" class="range">
+        </span>
+
+        <span>
+            <input type="checkbox" id="maiusculas">Letras maiúsculas</input>
+            <input type="checkbox" id="numeros"   >Números</input>
+            <input type="checkbox" id="especiais" >Caracteres</input>
+        </span>
+
+        <span>
+            <button id="gerar" class="botao">Gerar Senha(s)</button>
+            <button id="limpar" class="botao">Limpar</button>
+        </span>
+        <div id="output"></div>
+    </main>    
+    <script src="JS/script.JS"></script>
+</body>
+</html>
